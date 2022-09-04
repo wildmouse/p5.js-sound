@@ -25,7 +25,10 @@ module.exports = {
   context: __dirname + '/src',
   entry: {
     'p5.sound': './app.js',
-    'p5.sound.min': './app.js'
+    'p5.sound.min': './app.js',
+    'amplitudeProcessor': './audioWorklet/amplitudeProcessor.js',
+    'recorderProcessor': './audioWorklet/recorderProcessor.js',
+    'soundFileProcessor': './audioWorklet/soundFileProcessor.js',
   },
   output: {
     // where we want to output built files
